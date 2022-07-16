@@ -10,10 +10,10 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
+    
 }
 .logo{
-    width: 140px;
+    width: 120px;
     position: absolute;
     top: 4%;
     left: 10%;
@@ -89,7 +89,7 @@ nav ul li a{
 #menubtn{
     width: 50px;
     height: 50px;
-    
+    background: #009688;
     text-align: center;
     position: fixed;
     right: 30px;
@@ -111,8 +111,6 @@ nav ul li a{
         display: block;
         margin: 20px auto;
     }
-
-    
 }
 /*--feature--*/
 
@@ -180,7 +178,7 @@ nav ul li a{
     margin-bottom: 40px;
 }
 .feature-icon{
-    width: 75px;
+    width: 67px;
     height: 50px;
     font-size: 30px;
     line-height: 50px;
@@ -317,5 +315,33 @@ hr{
     border-radius: 7px;
     box-shadow: 0 10px 20px 3px #00968814;
     cursor: pointer;
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.user img{
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.user-info i{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.user-info small{
+    color: #009688;
+    font-weight: 600;
+}
+.user-info h4 i{
+    margin-bottom: 12px;
+}
+.testimonial-col :hover{
+    
     
 }
