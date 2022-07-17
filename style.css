@@ -117,7 +117,7 @@ nav ul li a{
         left: 5px;
     }
     #sidenav{
-        height: 669px;
+        height: 800px;
     }
     #menubtn img{
         width: 20px;
@@ -443,8 +443,5 @@ hr{
     .footer-img{
         top: 50%;
     }
-}
-backdrop-filter: blur(20px);
-    background: rgba(25, 28, 31, 0.85);
 }
 
