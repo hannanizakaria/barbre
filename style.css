@@ -117,7 +117,7 @@ nav ul li a{
         left: 5px;
     }
     #sidenav{
-        height: 800px;
+        height: 4000px;
     }
     #menubtn img{
         width: 20px;
@@ -126,6 +126,11 @@ nav ul li a{
     #menubtn{
         top: 5%;
         left: 82%;
+    }
+    .banner-btn{
+        align-items: center;
+        margin: 70px auto 0;
+        margin-left: 1px;
     }
     
 }
