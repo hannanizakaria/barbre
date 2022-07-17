@@ -30,7 +30,7 @@
 }
 
 .banner-text p{
-    font size: : 20px;
+    font-size:  20px;
     font-style: normal;
 }
 .banner-btn{
@@ -403,14 +403,6 @@ hr{
     color: #009688;
     margin: 10px;
 }
-.footer-img{
-    max-width: 370px;
-    opacity: 0.1;
-    position: absolute;
-    left: 51%;
-    top: 50%;
-    transform: translate(-53%,-50%);
-}
 .social-links{
     text-align: center;
 }
@@ -445,8 +437,6 @@ hr{
         flex-basis: 100%;
         font-size: 14px; 
     }
-    .footer-img{
-        top: 50%;
-    }
+
 }
 
