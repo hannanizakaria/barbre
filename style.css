@@ -26,7 +26,7 @@
 }
 
 .banner-text h1{
-    font-size: 110px;
+    font-size: 120px;
 }
 
 .banner-text p{
@@ -98,19 +98,36 @@ nav ul li a{
     z-index: 3;
     cursor: pointer;
 }
-
 #menubtn img{
     width: 20px;
     margin-top: 15px;
 }
 @media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 44px;
+        font-size: 50px;
     }
     .banner-btn a{
         display: block;
         margin: 20px auto;
     }
+    .logo{
+        width: 100px;
+        position: absolute;
+        top: 3%;
+        left: 5px;
+    }
+    #sidenav{
+        height: 669px;
+    }
+    #menubtn img{
+        width: 20px;
+        margin-top: 16px;
+    }
+    #menubtn{
+        top: 6%;
+        left: 82%;
+    }
+    
 }
 /*--feature--*/
 
@@ -274,7 +291,7 @@ hr{
 }
 @media screen and (max-width: 770px){
     .single-service{
-        flex-basis: 100%;
+        flex-basis: 120%;
         margin-bottom: 20px;
     }
     .service-desc p{
@@ -349,7 +366,7 @@ hr{
 /*--footer--*/
 
 #footer{
-    padding: 90px 0 20px;
+    padding: 100px 0 20px;
     background-color: #f3f3f3;
     position: relative;
 }
@@ -375,20 +392,19 @@ hr{
 .footer-row p{
     line-height: 35px;
     font-weight: 490;
-    margin-bottom: 15px;
 }
-.footer-left i,.footer-right i{
+.footer-left .i,.footer-right .i{
     font-size: 20px;
     color: #009688;
     margin: 10px;
 }
 .footer-img{
-    max-width: 355px;
+    max-width: 370px;
     opacity: 0.1;
     position: absolute;
-    left: 50%;
+    left: 51%;
     top: 50%;
-    transform: translate(-45%,-50%);
+    transform: translate(-53%,-50%);
 }
 .social-links{
     text-align: center;
@@ -428,3 +444,7 @@ hr{
         top: 50%;
     }
 }
+backdrop-filter: blur(20px);
+    background: rgba(25, 28, 31, 0.85);
+}
+
