@@ -32,6 +32,7 @@
 .banner-text p{
     font-size:  20px;
     font-style: normal;
+    font-weight: 440;
 }
 .banner-btn{
     margin: 70px auto 0;
@@ -131,7 +132,7 @@ nav ul li a{
     }
     #menubtn{
         top: 5%;
-        left: 80%;
+        left: 81%;
     }
     .banner-btn{
         align-items: center;
@@ -290,7 +291,7 @@ nav ul li a{
 }
 hr{
     background: #fff;
-    height: 2px;
+    height: 3px;
     border: 0;
     margin: 15px auto;
     width: 60%;
@@ -298,6 +299,7 @@ hr{
 }
 .service-desc p{
     font-size: 14px;
+    font-weight: 400;
 }
 .single-service:hover .service-desc{
     bottom: 35%;
@@ -313,9 +315,10 @@ hr{
     }
     hr{
         margin: 5px auto;
+        height: 2px;
     }
     .single-service:hover .service-desc{
-        bottom: 30% !important;
+        bottom: 29% !important;
     }
 }
 /*---testimonial----*/
