@@ -119,11 +119,11 @@ nav ul li a{
         width: 100px;
         position: absolute;
         top: 2%;
-        left: 2%;
+        left: 1%;
     }
     #sidenav{
         height: 4000px;
-        width: 220px;
+        width: 240px;
     }
     #menubtn img{
         width: 20px;
@@ -131,7 +131,7 @@ nav ul li a{
     }
     #menubtn{
         top: 5%;
-        left: 79%;
+        left: 80%;
     }
     .banner-btn{
         align-items: center;
@@ -453,7 +453,6 @@ hr{
     .footer-left,.footer-right{
         flex-basis: 100%;
         font-size: 14px; 
-    }
-
+    } 
 }
 
