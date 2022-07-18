@@ -15,7 +15,7 @@
 .logo{
     width: 140px;
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 4%;
 }
 
@@ -118,11 +118,12 @@ nav ul li a{
     .logo{
         width: 100px;
         position: absolute;
-        top: 3%;
-        left: 5px;
+        top: 2%;
+        left: 2%;
     }
     #sidenav{
         height: 4000px;
+        width: 220px;
     }
     #menubtn img{
         width: 20px;
@@ -130,7 +131,7 @@ nav ul li a{
     }
     #menubtn{
         top: 5%;
-        left: 82%;
+        left: 79%;
     }
     .banner-btn{
         align-items: center;
@@ -139,7 +140,6 @@ nav ul li a{
     }
     .banner-btn  i{
         padding-left: 9px;
-        
     }
     
 }
