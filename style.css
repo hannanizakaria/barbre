@@ -392,7 +392,7 @@ hr{
 }
 .footer-row{
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -406,7 +406,7 @@ hr{
     text-align: right;
 }
 .footer-row h1{
-    margin: 10px 0;
+    margin: 25px 0;
     color: #009688;
 }
 .footer-row p{
@@ -419,11 +419,11 @@ hr{
     margin: 10px;
 }
 .footer-img{
-    max-width: 330px;
+    max-width: 340px;
     opacity: 0.2;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 57%;
     transform: translate(-50%,-50%);
 }
 .social-links{
@@ -459,5 +459,8 @@ hr{
         flex-basis: 100%;
         font-size: 14px; 
     } 
+    .footer-img{
+        bottom: 60%;
+        background-position: bottom;
+    }
 }
-
