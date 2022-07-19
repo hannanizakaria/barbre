@@ -110,7 +110,8 @@ nav ul li a{
 }
 @media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 50px;
+        font-size: 47px;
+        margin-bottom: 5px;
     }
     .banner-btn a{
         display: block;
@@ -142,7 +143,9 @@ nav ul li a{
     .banner-btn  i{
         padding-left: 9px;
     }
-    
+    .banner-text p{
+        font-size: 15px;
+    }
 }
 /*--feature--*/
 
@@ -431,7 +434,6 @@ hr{
     height: 40px;
     width: 40px;
     line-height: 40px;
-    font-weight: 200;
     font-size: 30px;
     border-radius: 5px;
     border: 2px solid #009688;

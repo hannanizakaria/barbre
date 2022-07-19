@@ -14,7 +14,7 @@
     <section id="banner">
          <img src="images/logo.png" class="logo">
          <div class="banner-text">
-             <h1> Hair Studio </h1>
+             <h1><span class="auto-input"></span></h1>
              <p>Style your Hair Is Style Your Life</p>
              <div class="banner-btn">
                  <a href="#"><span></span>Find Out<i class="fa-solid fa-right-long"></i></a>
@@ -32,7 +32,6 @@
                 <li><a href="#testimonial">Testimonials</a></li>
                 <li><a href="#footer">Meet US</a></li>
                 
-               
             </ul>
         </nav>
      </div>
@@ -267,5 +266,14 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
      </script>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input", {
+        strings: ["Hair Studio", "Style Your Life", "For God Lock"],
+        typeSpeed: 100,
+        backSpeed: 30,
+        loop: true
+    })
+</script>
  <body>
 </html>
