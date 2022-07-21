@@ -74,6 +74,7 @@
 .banner-btn a:hover span{
     width: 100%;
     height: 100%;
+    font-size: 40%;
 }
 .banner-btn a:hover{
     color: #000;
@@ -132,7 +133,7 @@ nav ul li a{
         width: 100px;
         position: absolute;
         top: 2%;
-        left: 1%;
+        left: 20%;
     }
     #sidenav{
         height: 4000px;
@@ -144,7 +145,7 @@ nav ul li a{
     }
     #menubtn{
         top: 5%;
-        left: 81%;
+        left: 69%;
     }
     .banner-btn{
         align-items: center;
@@ -257,16 +258,6 @@ nav ul li a{
         width: 100%;
         border-radius: 8px;
     }
-
-    .single-service .img{
-        width: 170px;
-        height: 260px;
-        border-radius: 10px; 
-        margin: 20px 13px 20px;
-        padding-right: 20%;
-        align-items: center;
-        display: flex;
-    }
     }
 
 /*--Service---*/
@@ -338,8 +329,10 @@ hr{
 }
 @media screen and (max-width: 770px){
     .single-service{
-        flex-basis: 120%;
+        flex-basis: 150%;
         margin-bottom: 20px;
+        right: 37%;
+
     }
     .service-desc p{
         font-size: 12px;
@@ -352,10 +345,15 @@ hr{
         bottom: 29% !important;
     }
     .single-service img{
-        width: 300px;
+        width: 290px;
         height: 380px;
-        border-radius: 10px;  
-    }
+        border-radius: 10px; 
+    } 
+    .overlay{
+        width: 100%;
+        height: 98.2%;
+        right: 0.1%;
+
 }
 /*---testimonial----*/
 #Characters{
