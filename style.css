@@ -260,7 +260,7 @@ nav ul li a{
     line-height: 50px;
     border-radius: 8px;
     color: #009688;
-    border: 2px solid #009688;
+    border: 3px solid #009688;
 }
 
 .feature-text p{
@@ -528,10 +528,10 @@ hr{
     line-height: 40px;
     font-size: 30px;
     border-radius: 8px;
-    border: 2px solid #009688;
-    margin: 20px 6px 0;
+    border: 3px solid #009688;
+    margin: 20px 9px 0;
     cursor: pointer;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .social-links i:hover{
@@ -565,14 +565,3 @@ hr{
     }
 }
 
-.underline{
-    width: 10%;
-    height: 5px;
-    background: #111111;
-    border-radius: 4px;
-    position: absolute;
-    top: 75px;
-    left: 20px;
-    margin: 0px 11px;
-    overflow: hidden;
-}
