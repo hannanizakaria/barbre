@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
+
 
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688),url(images/banner.jpg);
@@ -144,8 +146,8 @@ nav ul li a{
         margin-top: 16px;
     }
     #menubtn{
-        top: 5%;
-        left: 69%;
+        top: 3%;
+        left: 80%;
     }
     .banner-btn{
         align-items: center;
@@ -264,6 +266,7 @@ nav ul li a{
 
 #service{
     width: 100%;
+    overflow-x: hidden;
     padding: 70px 0;
     background: #f3f3f3;
 }
