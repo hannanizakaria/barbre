@@ -266,7 +266,7 @@ nav ul li a{
 
 #service{
     width: 100%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     padding: 70px 0;
     background: #f3f3f3;
 }
@@ -330,39 +330,47 @@ hr{
     bottom: 35%;
     opacity: 1;
 }
-@media screen and (max-width: 770px){
-    .single-service{
+@media screen and (max-width: 770px) {
+    .single-service {
         flex-basis: 150%;
         margin-bottom: 20px;
         right: 37%;
 
     }
-    .service-desc p{
+
+    .service-desc p {
         font-size: 12px;
     }
-    hr{
+
+    hr {
         margin: 5px auto;
         height: 2px;
     }
-    .single-service:hover .service-desc{
+
+    .single-service:hover .service-desc {
         bottom: 29% !important;
     }
-    .single-service img{
+
+    .single-service img {
         width: 290px;
         height: 380px;
-        border-radius: 10px; 
-    } 
-    .overlay{
+        border-radius: 10px;
+    }
+
+    .overlay {
         width: 100%;
         height: 98.2%;
         right: 0.1%;
 
-}
+    }
+} /* Nssiti massditiha dakchi 3lach*/
+
 /*---testimonial----*/
 #Characters{
     width: 100%;
     padding: 70px 0;
 }
+
 .Characters-row{
     width: 80%;
     margin: auto;
@@ -510,7 +518,7 @@ hr{
     position: absolute;
     top: 75px;
     left: 20px;
-    margin: 0px 11px;
+    margin: 0 11px;
     overflow: hidden;
 }
 .underline span{
@@ -522,7 +530,7 @@ hr{
     left: 10px;
     animation: moving 2s linear infinite;
 }
-@keyframes moving{
+@keyframes moving {
     0%{
         left: -20px;
     }
