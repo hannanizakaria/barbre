@@ -266,7 +266,7 @@ nav ul li a{
 
 #service{
     width: 100%;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     padding: 70px 0;
     background: #f3f3f3;
 }
@@ -363,14 +363,12 @@ hr{
         right: 0.1%;
 
     }
-} /* Nssiti massditiha dakchi 3lach*/
-
+}
 /*---testimonial----*/
 #Characters{
     width: 100%;
     padding: 70px 0;
 }
-
 .Characters-row{
     width: 80%;
     margin: auto;
@@ -530,7 +528,7 @@ hr{
     left: 10px;
     animation: moving 2s linear infinite;
 }
-@keyframes moving {
+@keyframes moving{
     0%{
         left: -20px;
     }
