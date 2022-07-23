@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-
 }
 
 
@@ -129,48 +128,59 @@ nav ul li a{
 }
 
 @media screen and (max-width: 770px){
+
     .banner-text h1{
         font-size: 47px;
         margin-bottom: 5px;
     }
+
     .banner-text{
         text-align: center;
         padding-top: 40%;
         text-align: center;
     }
+
     .banner-btn a{
         display: block;
         margin: 20px auto;
     }
+
     .logo{
         width: 100px;
         position: absolute;
         top: 2%;
         left: 20%;
     }
+
     #sidenav{
         height: 4000px;
         width: 240px;
     }
+
     #menubtn img{
         width: 20px;
         margin-top: 16px;
     }
+
     #menubtn{
         top: 3%;
         left: 80%;
     }
+
     .banner-btn{
         align-items: center;
         margin: 70px auto 0;
         margin-left: 1px;
     }
+
     .banner-btn  i{
         padding-left: 9px;
     }
+
     .banner-text p{
         font-size: 15px;
     }
+
     .banner-btn a{
         font-size: 16px;
         font-weight: 470;
@@ -272,20 +282,23 @@ nav ul li a{
 }
 
 @media screen and (max-width: 770px){
+
     .title-text h1{
         font-size: 35px;
     }
+
     .features{
         flex-basis: 100%;
     }
+
     .features-img{
         flex-basis: 100%;
     }
+
     .features-img img{
         width: 100%;
         border-radius: 8px;
     }
-    
 }
 
 /*--Service---*/
@@ -365,37 +378,28 @@ hr{
     bottom: 35%;
     opacity: 1;
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 770px){
-    .single-service{
-=======
-@media screen and (max-width: 770px) {
+
     .single-service {
->>>>>>> d5849aec6f9697c2c022815d5109f12af2661c81
         flex-basis: 150%;
         margin-bottom: 20px;
         right: 37%;
     }
 
-<<<<<<< HEAD
     .service-desc p{
         font-size: 12px;
     }
 
     hr{
-=======
-    .service-desc p {
         font-size: 12px;
     }
 
     hr {
->>>>>>> d5849aec6f9697c2c022815d5109f12af2661c81
         margin: 5px auto;
         height: 2px;
     }
 
-<<<<<<< HEAD
     .single-service:hover .service-desc{
         bottom: 29% !important;
     }
@@ -410,23 +414,19 @@ hr{
         width: 100%;
         height: 98.2%;
         right: 0.1%;
-=======
-    .single-service:hover .service-desc {
         bottom: 29% !important;
     }
 
-    .single-service img {
+    .single-service img{
         width: 290px;
         height: 380px;
         border-radius: 10px;
     }
 
-    .overlay {
+    .overlay{
         width: 100%;
         height: 98.2%;
         right: 0.1%;
-
->>>>>>> d5849aec6f9697c2c022815d5109f12af2661c81
     }
 }
 
@@ -495,6 +495,7 @@ hr{
 }
 
 @media screen and (max-width: 770px){
+
    .Characters-col{
        flex-basis: 100%;
    }
@@ -585,14 +586,17 @@ hr{
 }
 
 @media screen and (max-width: 770px){
+
     .footer-left,.footer-right{
         flex-basis: 100%;
         font-size: 14px; 
     } 
+
     .footer-img{
         bottom: 60%;
         background-position: bottom;
     }
+    
     .footer-row{
         width: 90%;
         margin: 1%;
