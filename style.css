@@ -183,6 +183,12 @@ nav ul li a{
         font-weight: 470;
 
     }
+    .banner-btn a span{
+        width: 0%;
+        height: 100%;
+        top: 1px;
+    }
+    
 }
 
 /*--feature--*/
@@ -295,6 +301,10 @@ nav ul li a{
     .features-img img{
         width: 100%;
         border-radius: 8px;
+    }
+    .feature-icon i{
+        
+        border: 2.3pt solid #009688;
     }
 }
 
@@ -598,4 +608,9 @@ hr{
         width: 90%;
         margin: 1%;
     }
+    .social-links i{
+        border: 2.3pt solid #009688;
+        margin: 20px 4px 0;
+    }
+    
 }
