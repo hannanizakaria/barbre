@@ -348,7 +348,7 @@ nav ul li a{
     position: absolute;
     right: 14px;
     top: 0;
-    border-radius: 10px;
+    border-radius: 9px;
     cursor: pointer;
     background: linear-gradient(rgba(0,0,0,0.5),#009688);
     opacity: 0;
@@ -421,10 +421,11 @@ hr{
     } 
 
     .overlay{
-        width: 100%;
+        width: 1000px;
         height: 98.2%;
         right: 0.1%;
         bottom: 29% !important;
+        border-radius: 8px;
     }
 
     .single-service img{
