@@ -606,7 +606,7 @@ hr{
     width: 40px;
     line-height: 40px;
     font-size: 30px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: 6% solid #009688;
     margin: 20px 9px 0;
     cursor: pointer;
@@ -649,6 +649,7 @@ hr{
         border: 6% solid #009688;
         margin: 20px 4px 0;
         font-size: 33px;
+        right: 30px;
     }
     .footer-left{
         padding-left: 30px;
