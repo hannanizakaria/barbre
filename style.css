@@ -392,10 +392,10 @@ hr{
 @media screen and (max-width: 770px){
 
     .single-service {
-        flex-basis: 150%;
-        margin-bottom: 20px;
-        right: 37%;
-        align-items: center;
+        /*flex-basis: 150%;*/
+        /*margin-bottom: 20px;*/
+        /*right: 37%;*/
+        /*align-items: center;*/
     }
 
     .service-desc p{
@@ -418,8 +418,8 @@ hr{
     .single-service img{
         width: 290px;
         height: 380px;
-        border-radius: 10px; 
-    } 
+        border-radius: 10px;
+    }
 
     .overlay{
         width: 101px;
@@ -440,17 +440,17 @@ hr{
         height: 98.2%;
         right: 0.1%;
     }
-    
+
         .single-service {
             flex-basis: 150%;
             left: -100px;
             align-items: center;
         }
-        .single-service img{
-            width: 690px;
-            height: 380px;
-            border-radius: 10px; 
-        } 
+        /*.single-service img{*/
+        /*    width: 690px;*/
+        /*    height: 380px;*/
+        /*    border-radius: 10px;*/
+        /*}*/
 
     }
 
